@@ -134,6 +134,11 @@ body {
   border-radius: 500px 0 0 500px;
 }
 
+.container.right.content_long {
+  padding: 30px 30px 30px 90px;
+  border-radius: 0 500px 500px 0;
+}
+
 .container .content h2, .container .content_long h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
@@ -193,10 +198,14 @@ body {
     border-radius: 600px 0 0  600px;
   }
 
-  .container.left .content_long,
-  .container.right .content_long {
+  .container.left .content_long {
     padding: 80px 5px 80px 70px;
     border-radius: 600px 0 0  600px;
+  }
+
+  .container.right .content_long {
+    padding: 80px 5px 80px 70px;
+    border-radius: 600px 0 0 600px;
   }
 
   .container .content h2, .container .content_long h2 {
